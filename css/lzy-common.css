@@ -1,0 +1,593 @@
+.layui-form-item {
+    margin-bottom: 5px;
+}
+
+.layui-form-item .layui-inline {
+    margin-bottom: 5px;
+}
+
+.layui-form-label {
+    font-size: 12px;
+}
+
+body {
+    background: #fff;
+}
+
+/*滚动条*/
+::-webkit-scrollbar {
+    width: 5px;
+    height: 10px;
+}
+
+::-webkit-scrollbar-button:vertical {
+    display: none;
+}
+
+::-webkit-scrollbar-track, ::-webkit-scrollbar-corner {
+    background-color: #f8f8f8;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, .3);
+}
+
+::-webkit-scrollbar-thumb:vertical:hover {
+    background-color: rgba(0, 0, 0, .35);
+}
+
+::-webkit-scrollbar-thumb:vertical:active {
+    background-color: rgba(0, 0, 0, .38);
+}
+
+/*.layui-table-tips-main {*/
+/*    max-height: 350px !important;*/
+/*}*/
+
+/*.layui-table-tips-main img {*/
+/*    max-height: 350px;*/
+/*}*/
+
+
+/**一些公用简单的css*请不要瞎改，其他人能不用就不要。。嘻嘻哈哈* author:龙*/
+.lzy-body {
+    line-height: 28px;
+}
+
+.line-14 {
+    line-height: 14px;
+}
+
+.line-16 {
+    line-height: 16px;
+}
+
+.line-18 {
+    line-height: 18px;
+}
+
+.line-20 {
+    line-height: 20px;
+}
+
+.line-22 {
+    line-height: 22px;
+}
+
+.line-24 {
+    line-height: 24px;
+}
+
+.line-26 {
+    line-height: 26px;
+}
+
+.line-28 {
+    line-height: 28px;
+}
+
+.line-30 {
+    line-height: 30px;
+}
+
+/*字体大小*/
+.font-not-b {
+    font-weight: normal;
+}
+
+.font-b {
+    font-weight: bold;
+}
+
+.font-10 {
+    font-size: 10px;
+}
+
+.font-12 {
+    font-size: 12px;
+}
+
+.font-14 {
+    font-size: 14px;
+}
+
+.font-16 {
+    font-size: 16px;
+}
+
+.font-18 {
+    font-size: 18px;
+}
+
+.font-20 {
+    font-size: 20px;
+}
+
+.font-22 {
+    font-size: 22px;
+}
+
+.font-26 {
+    font-size: 26px;
+}
+
+.font-28 {
+    font-size: 28px;
+}
+
+.font-30 {
+    font-size: 30px;
+}
+
+/*字体颜色*/
+.color-org {
+    color: #f28424;
+}
+
+.color-fff {
+    color: #ffffff;
+}
+
+.color-cccccccc {
+    color: #0d0d0d;
+}
+
+.color-ccccccc {
+    color: #656565;
+}
+
+.color-cccccc {
+    color: #3C3C3C;
+}
+
+.color-ccccc {
+    color: #a8a8a8;
+}
+
+.color-cccc {
+    color: #c9c9c9;
+}
+
+.color-ccc {
+    color: #ccc;
+}
+
+.color-green {
+    color: #0ab125;
+}
+
+.color-blue {
+    color: #3cabe3;
+}
+
+.color-red {
+    color: #ff0000;
+}
+
+.color-fff {
+    color: #fff;
+}
+
+/*背景色*/
+.lzy-bg-green {
+    background: #23c73d;
+}
+
+.lzy-bg-red {
+    background: #ff4c00;
+}
+
+.lzy-bg-green-c {
+    background: #f2fff4;
+}
+
+.lzy-bg-fff {
+    background: #fff;
+}
+
+.lzy-bg-ccccc {
+    background: #3C3C3C;
+}
+
+.lzy-bg-cccc {
+    background: #c9c9c9;
+}
+
+.lzy-bg-ccc {
+    background: #ccc;
+}
+
+.lzy-bg-cc {
+    background: #EBEBEB;
+}
+
+.lzy-bg-c {
+    background: #f8f8f8;
+}
+
+/*浮动*/
+.lzy-float-right {
+    float: right;
+}
+
+.lzy-float-left {
+    float: left;
+}
+
+/*文字对齐*/
+.lzy-text-center {
+    text-align: center;
+}
+
+.lzy-text-left {
+    text-align: left;
+}
+
+.lzy-text-right {
+    text-align: right;
+}
+
+/*边框*/
+.lzy-border {
+    border: 1px solid #eeeeee;
+    border-radius: 3px;
+}
+
+.lzy-border-green {
+    border: 1px solid #0ad426;
+    border-radius: 3px;
+}
+
+.lzy-border-red {
+    border: 1px solid #ff0000;
+    border-radius: 3px;
+}
+
+.lzy-border-org {
+    border: 1px solid #f28424;
+    border-radius: 3px;
+}
+
+.lzy-noboder {
+    border: none;
+}
+
+/*内边距*/
+.lzy-pad-5 {
+    padding: 5px;
+}
+
+.lzy-pad {
+    padding: 10px;
+}
+
+.lzy-pad-15 {
+    padding: 15px;
+}
+
+.lzy-pad-20 {
+    padding: 20px;
+}
+
+/*外边距*/
+.lzy-mar-5 {
+    margin: 5px;
+}
+
+.lzy-mar {
+    margin: 10px;
+}
+
+.lzy-mar-15 {
+    margin: 15px;
+}
+
+.lzy-mar-20 {
+    margin: 20px;
+}
+
+/*上边距*/
+.lzy-pad-top-5 {
+    padding-top: 5px;
+}
+
+.lzy-pad-top {
+    padding-top: 10px;
+}
+
+.lzy-pad-top-15 {
+    padding-top: 15px;
+}
+
+.lzy-pad-top-20 {
+    padding-top: 20px;
+}
+
+.lzy-mar-top-5 {
+    margin-top: 5px;
+}
+
+.lzy-mar-top {
+    margin-top: 10px;
+}
+
+.lzy-mar-top-15 {
+    margin-top: 15px;
+}
+
+.lzy-mar-top-20 {
+    margin-top: 20px;
+}
+
+/*左边距*/
+.lzy-pad-left-5 {
+    padding-left: 5px;
+}
+
+.lzy-pad-left {
+    padding-left: 10px;
+}
+
+.lzy-pad-left-15 {
+    padding-left: 15px;
+}
+
+.lzy-pad-left-20 {
+    padding-left: 20px;
+}
+
+.lzy-mar-left-5 {
+    margin-left: 5px;
+}
+
+.lzy-mar-left {
+    margin-left: 10px;
+}
+
+.lzy-mar-left-15 {
+    margin-left: 15px;
+}
+
+.lzy-mar-left-20 {
+    margin-left: 20px;
+}
+
+/*右边距*/
+.lzy-mar-right-5 {
+    margin-right: 5px;
+}
+
+.lzy-pad-right {
+    padding-right: 10px;
+}
+
+.lzy-pad-right-15 {
+    padding-right: 15px;
+}
+
+.lzy-pad-right-20 {
+    padding-right: 20px;
+}
+
+.lzy-mar-right-5 {
+    margin-right: 5px;
+}
+
+.lzy-mar-right {
+    margin-right: 10px;
+}
+
+.lzy-mar-right-15 {
+    margin-right: 15px;
+}
+
+.lzy-mar-right-20 {
+    margin-right: 20px;
+}
+
+/*下边距*/
+.lzy-pad-bot-5 {
+    padding-bottom: 5px;
+}
+
+.lzy-pad-bot {
+    padding-bottom: 10px;
+}
+
+.lzy-pad-bot-15 {
+    padding-bottom: 15px;
+}
+
+.lzy-pad-bot-20 {
+    padding-bottom: 20px;
+}
+
+.lzy-mar-bot-5 {
+    margin-bottom: 5px;
+}
+
+.lzy-mar-bot {
+    margin-bottom: 10px;
+}
+
+.lzy-mar-bot-15 {
+    margin-bottom: 15px;
+}
+
+.lzy-mar-bot-20 {
+    margin-bottom: 20px;
+}
+
+/*这个是什么鬼》嗯嗯，间隔线*/
+.lzy-elem-quote {
+    border-left: 5px solid #0ab125;
+    font-weight: bold;
+    color: #656565;
+    height: 42px;
+    line-height: 42px;
+    font-size: 14px;
+    padding: 0px 10px;
+}
+
+/*鼠标移动效果*/
+.mouse-hover:hover {
+    cursor: pointer;
+    color: #1E9FFF;
+}
+
+/*宽度*/
+.lzy-width-30 {
+    width: 30px;
+}
+
+.lzy-width-40 {
+    width: 40px;
+}
+
+.lzy-width-50 {
+    width: 50px;
+}
+
+.lzy-width-60 {
+    width: 60px;
+}
+
+.lzy-width-70 {
+    width: 70px;
+}
+
+.lzy-width-80 {
+    width: 80px;
+}
+
+.lzy-width-90 {
+    width: 90px;
+}
+
+.lzy-width-100 {
+    width: 100px;
+}
+
+.lzy-width-110 {
+    width: 110px;
+}
+
+.lzy-width-120 {
+    width: 120px;
+}
+
+.lzy-width-130 {
+    width: 130px;
+}
+
+.lzy-width-140 {
+    width: 140px;
+}
+
+.lzy-width-150 {
+    width: 150px;
+}
+
+/*高度*/
+.lzy-height-30 {
+    height: 30px;
+}
+
+.lzy-height-40 {
+    height: 40px;
+}
+
+.lzy-height-50 {
+    height: 50px;
+}
+
+.lzy-height-60 {
+    height: 60px;
+}
+
+.lzy-height-70 {
+    height: 70px;
+}
+
+.lzy-height-80 {
+    height: 80px;
+}
+
+.lzy-height-90 {
+    height: 90px;
+}
+
+.lzy-height-100 {
+    height: 100px;
+}
+
+.lzy-height-110 {
+    height: 110px;
+}
+
+.lzy-height-120 {
+    height: 120px;
+}
+
+.lzy-height-130 {
+    height: 130px;
+}
+
+.lzy-height-140 {
+    height: 140px;
+}
+
+.lzy-height-150 {
+    height: 150px;
+}
+
+/*文字换行以及隐藏*/
+.lzy-text-maxline {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.lzy-text-maxline-2 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+
+.lzy-text-maxline-3 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+}
+
+/*图片显示*/
+.lzy-img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover; /*可选值*//*fill 默认，不保证保持原有的比例，内容拉伸填充整个内容容器。 *//*contain 保持原有尺寸比例。内容被缩放。 *//*cover 保持原有尺寸比例。但部分内容可能被剪切。 *//*none 保留原有元素内容的长度和宽度，也就是说内容不会被重置。 *//*scale-down 保持原有尺寸比例。内容的尺寸与 none 或 contain 中的一个相同，取决于它们两个之间谁得到的对象尺寸会更小一些。  *//*initial 设置为默认值，关于 initial*//*inherit 从该元素的父元素继承属性。 关于 inherit*/
+}
